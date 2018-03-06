@@ -1,0 +1,227 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL	util/d_types.h	/^    ALL$/;"	e	enum:emsg_category
+Article	rpc_gen.h	/^	char *Article;$/;"	m	struct:publish_1_argument
+Article	rpc_gen.h	/^	char *Article;$/;"	m	struct:publishserver_1_argument
+Article	rpc_gen.h	/^	char *Article;$/;"	m	struct:subscribe_1_argument
+Article	rpc_gen.h	/^	char *Article;$/;"	m	struct:unsubscribe_1_argument
+BUFSIZE	group_server/udp_intf.h	22;"	d
+BUSINESS	util/d_types.h	/^    BUSINESS,$/;"	e	enum:emsg_category
+CC	Makefile	/^CC = g++$/;"	m
+CC	group_server/Makefile	/^CC = g++$/;"	m
+CC	util/Makefile	/^CC = g++$/;"	m
+CLIENT	Makefile	/^CLIENT = rpc_gen_client$/;"	m
+CLIENT_PREFIX	Makefile	/^CLIENT_PREFIX = client$/;"	m
+COMMUNICATE_PROG	rpc_gen.h	71;"	d
+COMMUNICATE_VERSION	rpc_gen.h	72;"	d
+ClientList	group_server/client_list.cc	/^ClientList::ClientList(){$/;"	f	class:ClientList
+ClientList	group_server/client_list.h	/^class ClientList{$/;"	c
+ENTERTAINMENT	util/d_types.h	/^    ENTERTAINMENT,$/;"	e	enum:emsg_category
+G_SERV_PREFIX	Makefile	/^G_SERV_PREFIX = group_server $/;"	m
+HEALTH	util/d_types.h	/^    HEALTH,$/;"	e	enum:emsg_category
+INC_DIR	Makefile	/^INC_DIR = util\/$/;"	m
+INC_DIR	group_server/Makefile	/^INC_DIR = ..\/util\/$/;"	m
+INC_DIR	util/Makefile	/^INC_DIR = .\/$/;"	m
+INVALID_IP	group_server/client_list.h	/^const uint32_t INVALID_IP =     0xffffffff;$/;"	v
+INVALID_PORT	group_server/client_list.h	/^const uint32_t INVALID_PORT =       0xffff;$/;"	v
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:join_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:joinserver_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:leave_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:leaveserver_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:publish_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:publishserver_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:subscribe_1_argument
+IP	rpc_gen.h	/^	char *IP;$/;"	m	struct:unsubscribe_1_argument
+Join	rpc_gen.h	111;"	d
+Join	rpc_gen.h	81;"	d
+JoinServer	rpc_gen.h	105;"	d
+JoinServer	rpc_gen.h	75;"	d
+LIFESTYLE	util/d_types.h	/^    LIFESTYLE,$/;"	e	enum:emsg_category
+Leave	rpc_gen.h	114;"	d
+Leave	rpc_gen.h	84;"	d
+LeaveServer	rpc_gen.h	108;"	d
+LeaveServer	rpc_gen.h	78;"	d
+MAX_ARTICLE_SIZE	util/d_types.h	10;"	d
+MAX_CLIENTS	group_server/client_list.h	/^const int MAX_CLIENTS =          MAX_NODES;$/;"	v
+MAX_NODES	util/d_types.h	11;"	d
+MAX_SUBSCRIPTION	group_server/client_list.h	/^const int MAX_SUBSCRIPTION =            20;$/;"	v
+MAX_THREADS	group_server/udp_intf.h	23;"	d
+OBJ	group_server/Makefile	/^OBJ = $/;"	m
+OBJ	util/Makefile	/^OBJ = $/;"	m
+OBJECTS	group_server/Makefile	/^OBJECTS := $(TARGETS:%.cc=%.o)$/;"	m
+OBJECTS	util/Makefile	/^OBJECTS := $(TARGETS:%.cc=%.o)$/;"	m
+OBJECTS_CLIENT	Makefile	/^OBJECTS_CLIENT = $(TARGETS_CLIENT:%.cc=%.o)$/;"	m
+OBJECTS_CLNT	Makefile	/^OBJECTS_CLNT = $(SOURCES_CLNT.c:%.c=%.o) $(TARGETS_CLNT.c:%.c=%.o)$/;"	m
+OBJECTS_G_SERV	Makefile	/^OBJECTS_G_SERV = $(TARGETS_G_SERV:%.cc=%.o)$/;"	m
+OBJECTS_SVC	Makefile	/^OBJECTS_SVC = $(SOURCES_SVC.c:%.c=%.o) $(TARGETS_SVC.c:%.c=%.o)$/;"	m
+OBJECTS_UTIL	Makefile	/^OBJECTS_UTIL = $(TARGETS_UTIL:%.cc=%.o) $/;"	m
+POLITICS	util/d_types.h	/^    POLITICS,$/;"	e	enum:emsg_category
+PayLoad	util/payload_util.cc	/^PayLoad::PayLoad(){$/;"	f	class:PayLoad
+PayLoad	util/payload_util.cc	/^PayLoad::PayLoad(char *ip, char *port, char* raw_input){$/;"	f	class:PayLoad
+PayLoad	util/payload_util.cc	/^PayLoad::PayLoad(char* raw_input){$/;"	f	class:PayLoad
+PayLoad	util/payload_util.h	/^class PayLoad{$/;"	c
+Ping	rpc_gen.h	129;"	d
+Ping	rpc_gen.h	99;"	d
+Port	rpc_gen.h	/^	int Port;$/;"	m	struct:join_1_argument
+Port	rpc_gen.h	/^	int Port;$/;"	m	struct:leave_1_argument
+Port	rpc_gen.h	/^	int Port;$/;"	m	struct:publish_1_argument
+Port	rpc_gen.h	/^	int Port;$/;"	m	struct:publishserver_1_argument
+Port	rpc_gen.h	/^	int Port;$/;"	m	struct:subscribe_1_argument
+Port	rpc_gen.h	/^	int Port;$/;"	m	struct:unsubscribe_1_argument
+ProgID	rpc_gen.h	/^	int ProgID;$/;"	m	struct:joinserver_1_argument
+ProgID	rpc_gen.h	/^	int ProgID;$/;"	m	struct:leaveserver_1_argument
+ProgVers	rpc_gen.h	/^	int ProgVers;$/;"	m	struct:joinserver_1_argument
+ProgVers	rpc_gen.h	/^	int ProgVers;$/;"	m	struct:leaveserver_1_argument
+Publish	rpc_gen.h	123;"	d
+Publish	rpc_gen.h	93;"	d
+PublishServer	rpc_gen.h	126;"	d
+PublishServer	rpc_gen.h	96;"	d
+RPCGENFLAGS	Makefile	/^RPCGENFLAGS = -N -a$/;"	m
+SCIENCE	util/d_types.h	/^    SCIENCE,$/;"	e	enum:emsg_category
+SERVER	Makefile	/^SERVER = rpc_gen_server$/;"	m
+SIG_PF	rpc_gen_svc.c	24;"	d	file:
+SOURCES.x	Makefile	/^SOURCES.x = rpc_gen.x$/;"	m
+SOURCES_CLNT.c	Makefile	/^SOURCES_CLNT.c = $/;"	m
+SOURCES_CLNT.h	Makefile	/^SOURCES_CLNT.h = $/;"	m
+SOURCES_SVC.c	Makefile	/^SOURCES_SVC.c = $/;"	m
+SOURCES_SVC.h	Makefile	/^SOURCES_SVC.h = $/;"	m
+SPORTS	util/d_types.h	/^    SPORTS = 0,$/;"	e	enum:emsg_category
+Subscribe	rpc_gen.h	117;"	d
+Subscribe	rpc_gen.h	87;"	d
+TARGETS	Makefile	/^TARGETS = rpc_gen.h rpc_gen_xdr.c rpc_gen_clnt.c rpc_gen_svc.c rpc_gen_client.c rpc_gen_server.c $/;"	m
+TARGETS	group_server/Makefile	/^TARGETS = udp_intf.cc client_list.cc$/;"	m
+TARGETS	util/Makefile	/^TARGETS = payload_util.cc$/;"	m
+TARGETS_CLIENT	Makefile	/^TARGETS_CLIENT = $/;"	m
+TARGETS_CLNT.c	Makefile	/^TARGETS_CLNT.c = rpc_gen_clnt.c rpc_gen_client.c rpc_gen_xdr.c $/;"	m
+TARGETS_G_SERV	Makefile	/^TARGETS_G_SERV = group_server\/udp_intf.cc group_server\/client_list.cc$/;"	m
+TARGETS_SVC.c	Makefile	/^TARGETS_SVC.c = rpc_gen_svc.c rpc_gen_server.c rpc_gen_xdr.c $/;"	m
+TARGETS_UTIL	Makefile	/^TARGETS_UTIL = util\/payload_util.cc$/;"	m
+TECHNOLOGY	util/d_types.h	/^    TECHNOLOGY,$/;"	e	enum:emsg_category
+TIMEOUT	rpc_gen_clnt.c	/^static struct timeval TIMEOUT = { 25, 0 };$/;"	v	typeref:struct:timeval	file:
+UDPIntf	group_server/udp_intf.cc	/^UDPIntf::UDPIntf(uint16_t port, void *_obj){$/;"	f	class:UDPIntf
+UDPIntf	group_server/udp_intf.h	/^class UDPIntf{$/;"	c
+UDP_BUFF_SIZE	group_server/udp_intf.cc	3;"	d	file:
+UTIL_PREFIX	Makefile	/^UTIL_PREFIX = util$/;"	m
+Unsubscribe	rpc_gen.h	120;"	d
+Unsubscribe	rpc_gen.h	90;"	d
+_RPC_GEN_H_RPCGEN	rpc_gen.h	7;"	d
+__CLIENT_LIST__	group_server/client_list.h	2;"	d
+__OBJ_PTR__	group_server/obj_ptr.h	2;"	d
+__PAYLOAD_UTIL__	util/payload_util.h	2;"	d
+__PROJECT_DTYPES__	util/d_types.h	2;"	d
+__UDP_INTF__	group_server/udp_intf.h	2;"	d
+_cli_obj	group_server/udp_intf.h	/^    void *_cli_obj;$/;"	m	class:UDPIntf
+_join_1	rpc_gen_svc.c	/^_join_1 (join_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_joinserver_1	rpc_gen_svc.c	/^_joinserver_1 (joinserver_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_leave_1	rpc_gen_svc.c	/^_leave_1 (leave_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_leaveserver_1	rpc_gen_svc.c	/^_leaveserver_1 (leaveserver_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_ping_1	rpc_gen_svc.c	/^_ping_1 (void  *argp, struct svc_req *rqstp)$/;"	f	file:
+_publish_1	rpc_gen_svc.c	/^_publish_1 (publish_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_publishserver_1	rpc_gen_svc.c	/^_publishserver_1 (publishserver_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_subscribe_1	rpc_gen_svc.c	/^_subscribe_1 (subscribe_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+_unsubscribe_1	rpc_gen_svc.c	/^_unsubscribe_1 (unsubscribe_1_argument *argp, struct svc_req *rqstp)$/;"	f	file:
+add_client	group_server/client_list.cc	/^int ClientList::add_client(uint32_t ip, uint16_t port){$/;"	f	class:ClientList
+add_subscription	group_server/client_list.cc	/^int ClientList::add_subscription(uint32_t ip, uint16_t port, struct article *in_sub){$/;"	f	class:ClientList
+article	util/d_types.h	/^struct article{$/;"	s
+article_info	util/d_types.h	/^    std::vector<struct article> article_info;$/;"	m	struct:client_record
+article_info	util/payload_util.h	/^    struct article article_info;$/;"	m	class:PayLoad	typeref:struct:PayLoad::article
+bcast_lck	group_server/udp_intf.h	/^    std::mutex bcast_lck;$/;"	m	class:UDPIntf
+bcast_monitor	group_server/udp_intf.h	/^    std::thread bcast_monitor;$/;"	m	class:UDPIntf
+bcast_msg	group_server/udp_intf.h	/^    std::vector<struct article> bcast_msg;$/;"	m	class:UDPIntf
+bcast_signal	group_server/udp_intf.h	/^    bool bcast_signal;$/;"	m	class:UDPIntf
+buf	group_server/udp_intf.h	/^    char buf[BUFSIZE];$/;"	m	class:UDPIntf
+clientRecords	group_server/client_list.h	/^    std::vector<struct client_record> clientRecords;$/;"	m	class:ClientList
+client_record	util/d_types.h	/^struct client_record{$/;"	s
+clientadd	group_server/udp_intf.h	/^    struct sockaddr_in clientadd;$/;"	m	class:UDPIntf	typeref:struct:UDPIntf::sockaddr_in
+clients_obj	rpc_gen_svc.c	/^ClientList *clients_obj;$/;"	v
+communicate_prog_1	rpc_gen_client.c	/^communicate_prog_1(char *host, char* clientIp, int clientPort)$/;"	f
+communicate_prog_1	rpc_gen_svc.c	/^communicate_prog_1(struct svc_req *rqstp, register SVCXPRT *transp)$/;"	f	file:
+contents	util/d_types.h	/^    char *contents;$/;"	m	struct:article
+cv	group_server/udp_intf.h	/^    std::condition_variable cv;$/;"	m	class:UDPIntf
+del_subscription	group_server/client_list.cc	/^int ClientList::del_subscription(uint32_t ip, uint16_t port, struct article *in_sub){$/;"	f	class:ClientList
+emsg_category	util/d_types.h	/^enum emsg_category {$/;"	g
+fd_rx	group_server/udp_intf.h	/^    int32_t fd_rx;$/;"	m	class:UDPIntf
+fd_tx	group_server/udp_intf.h	/^    int32_t fd_tx;$/;"	m	class:UDPIntf
+getMyIpAddress	rpc_gen_client.c	/^char* getMyIpAddress(){$/;"	f
+get_contents	util/payload_util.cc	/^string PayLoad::get_contents(){$/;"	f	class:PayLoad
+get_org	util/payload_util.cc	/^string PayLoad::get_org(){$/;"	f	class:PayLoad
+get_originator	util/payload_util.cc	/^string PayLoad::get_originator(){$/;"	f	class:PayLoad
+get_type	util/payload_util.cc	/^string PayLoad:: get_type(){$/;"	f	class:PayLoad
+hash	util/d_types.h	/^    long long hash;$/;"	m	struct:article
+hash_fn	util/payload_util.h	/^    std::hash<std::string> hash_fn;$/;"	m	class:PayLoad
+ip	util/d_types.h	/^    uint32_t ip;$/;"	m	struct:node
+join_1	rpc_gen_clnt.c	/^join_1(char *IP, int Port,  CLIENT *clnt)$/;"	f
+join_1_argument	rpc_gen.h	/^struct join_1_argument {$/;"	s
+join_1_argument	rpc_gen.h	/^typedef struct join_1_argument join_1_argument;$/;"	t	typeref:struct:join_1_argument
+join_1_svc	rpc_gen_server.c	/^join_1_svc(char *IP, int Port,  struct svc_req *rqstp)$/;"	f
+join_all	group_server/udp_intf.cc	/^int UDPIntf::join_all(){$/;"	f	class:UDPIntf
+joinserver_1	rpc_gen_clnt.c	/^joinserver_1(char *IP, int ProgID, int ProgVers,  CLIENT *clnt)$/;"	f
+joinserver_1_argument	rpc_gen.h	/^struct joinserver_1_argument {$/;"	s
+joinserver_1_argument	rpc_gen.h	/^typedef struct joinserver_1_argument joinserver_1_argument;$/;"	t	typeref:struct:joinserver_1_argument
+joinserver_1_svc	rpc_gen_server.c	/^joinserver_1_svc(char *IP, int ProgID, int ProgVers,  struct svc_req *rqstp)$/;"	f
+leave_1	rpc_gen_clnt.c	/^leave_1(char *IP, int Port,  CLIENT *clnt)$/;"	f
+leave_1_argument	rpc_gen.h	/^struct leave_1_argument {$/;"	s
+leave_1_argument	rpc_gen.h	/^typedef struct leave_1_argument leave_1_argument;$/;"	t	typeref:struct:leave_1_argument
+leave_1_svc	rpc_gen_server.c	/^leave_1_svc(char *IP, int Port,  struct svc_req *rqstp)$/;"	f
+leaveserver_1	rpc_gen_clnt.c	/^leaveserver_1(char *IP, int ProgID, int ProgVers,  CLIENT *clnt)$/;"	f
+leaveserver_1_argument	rpc_gen.h	/^struct leaveserver_1_argument {$/;"	s
+leaveserver_1_argument	rpc_gen.h	/^typedef struct leaveserver_1_argument leaveserver_1_argument;$/;"	t	typeref:struct:leaveserver_1_argument
+leaveserver_1_svc	rpc_gen_server.c	/^leaveserver_1_svc(char *IP, int ProgID, int ProgVers,  struct svc_req *rqstp)$/;"	f
+main	rpc_gen_client.c	/^main (int argc, char *argv[])$/;"	f
+main	rpc_gen_svc.c	/^main (int argc, char **argv)$/;"	f
+main	util/client_test.cc	/^int main (){$/;"	f
+msg_category	util/d_types.h	/^const string msg_category[9] = {"Sports",$/;"	v
+node	util/d_types.h	/^struct node{$/;"	s
+node_info	util/d_types.h	/^    struct node node_info;$/;"	m	struct:client_record	typeref:struct:client_record::node
+node_info	util/payload_util.h	/^    struct node node_info;$/;"	m	class:PayLoad	typeref:struct:PayLoad::node
+optval	group_server/udp_intf.h	/^    int32_t optval;$/;"	m	class:UDPIntf
+org	util/d_types.h	/^    char *org;$/;"	m	struct:article
+originator	util/d_types.h	/^    char *originator;$/;"	m	struct:article
+pack_to_string	util/payload_util.cc	/^string PayLoad::pack_to_string(){$/;"	f	class:PayLoad
+pack_to_string	util/payload_util.cc	/^string PayLoad::pack_to_string(struct article *msg){$/;"	f	class:PayLoad
+parse_article	util/payload_util.cc	/^struct article PayLoad::parse_article(char *raw_input){$/;"	f	class:PayLoad
+pay_load_obj	rpc_gen_svc.c	/^PayLoad *pay_load_obj;$/;"	v
+payload_raw	util/payload_util.h	/^    char payload_raw[120];$/;"	m	class:PayLoad
+ping_1	rpc_gen_clnt.c	/^ping_1(CLIENT *clnt)$/;"	f
+ping_1_svc	rpc_gen_server.c	/^ping_1_svc(struct svc_req *rqstp)$/;"	f
+port	util/d_types.h	/^    uint16_t port;$/;"	m	struct:node
+portno	group_server/udp_intf.h	/^    int16_t portno;$/;"	m	class:UDPIntf
+publish_1	rpc_gen_clnt.c	/^publish_1(char *Article, char *IP, int Port,  CLIENT *clnt)$/;"	f
+publish_1_argument	rpc_gen.h	/^struct publish_1_argument {$/;"	s
+publish_1_argument	rpc_gen.h	/^typedef struct publish_1_argument publish_1_argument;$/;"	t	typeref:struct:publish_1_argument
+publish_1_svc	rpc_gen_server.c	/^publish_1_svc(char *Article, char *IP, int Port,  struct svc_req *rqstp)$/;"	f
+publishserver_1	rpc_gen_clnt.c	/^publishserver_1(char *Article, char *IP, int Port,  CLIENT *clnt)$/;"	f
+publishserver_1_argument	rpc_gen.h	/^struct publishserver_1_argument {$/;"	s
+publishserver_1_argument	rpc_gen.h	/^typedef struct publishserver_1_argument publishserver_1_argument;$/;"	t	typeref:struct:publishserver_1_argument
+publishserver_1_svc	rpc_gen_server.c	/^publishserver_1_svc(char *Article, char *IP, int Port,  struct svc_req *rqstp)$/;"	f
+receive_monitor	group_server/udp_intf.cc	/^int UDPIntf::receive_monitor(uint32_t tid){$/;"	f	class:UDPIntf
+recv_thread	group_server/udp_intf.h	/^    std::thread recv_thread;$/;"	m	class:UDPIntf
+register_server	group_server/udp_intf.cc	/^int UDPIntf::register_server(){$/;"	f	class:UDPIntf
+rem_client	group_server/client_list.cc	/^int ClientList::rem_client(uint32_t ip, uint16_t port){$/;"	f	class:ClientList
+send_to_clients	group_server/udp_intf.cc	/^int UDPIntf::send_to_clients(uint32_t ip, uint16_t port, char *msg){$/;"	f	class:UDPIntf
+sender_monitor	group_server/udp_intf.cc	/^int UDP_BUFF_SIZE::sender_monitor(uint32_t tid){$/;"	f	class:UDP_BUFF_SIZE
+serveradd	group_server/udp_intf.h	/^    struct sockaddr_in serveradd;$/;"	m	class:UDPIntf	typeref:struct:UDPIntf::sockaddr_in
+status	util/d_types.h	/^    bool status;$/;"	m	struct:node
+subscribe_1	rpc_gen_clnt.c	/^subscribe_1(char *IP, int Port, char *Article,  CLIENT *clnt)$/;"	f
+subscribe_1_argument	rpc_gen.h	/^struct subscribe_1_argument {$/;"	s
+subscribe_1_argument	rpc_gen.h	/^typedef struct subscribe_1_argument subscribe_1_argument;$/;"	t	typeref:struct:subscribe_1_argument
+subscribe_1_svc	rpc_gen_server.c	/^subscribe_1_svc(char *IP, int Port, char *Article,  struct svc_req *rqstp)$/;"	f
+thread_pool	group_server/udp_intf.h	/^    std::thread thread_pool[MAX_THREADS];$/;"	m	class:UDPIntf
+type	util/d_types.h	/^    enum emsg_category type;$/;"	m	struct:article	typeref:enum:article::emsg_category
+udp_obj	rpc_gen_svc.c	/^UDPIntf *udp_obj;$/;"	v
+unsubscribe_1	rpc_gen_clnt.c	/^unsubscribe_1(char *IP, int Port, char *Article,  CLIENT *clnt)$/;"	f
+unsubscribe_1_argument	rpc_gen.h	/^struct unsubscribe_1_argument {$/;"	s
+unsubscribe_1_argument	rpc_gen.h	/^typedef struct unsubscribe_1_argument unsubscribe_1_argument;$/;"	t	typeref:struct:unsubscribe_1_argument
+unsubscribe_1_svc	rpc_gen_server.c	/^unsubscribe_1_svc(char *IP, int Port, char *Article,  struct svc_req *rqstp)$/;"	f
+xdr_join_1_argument	rpc_gen_xdr.c	/^xdr_join_1_argument (XDR *xdrs, join_1_argument *objp)$/;"	f
+xdr_joinserver_1_argument	rpc_gen_xdr.c	/^xdr_joinserver_1_argument (XDR *xdrs, joinserver_1_argument *objp)$/;"	f
+xdr_leave_1_argument	rpc_gen_xdr.c	/^xdr_leave_1_argument (XDR *xdrs, leave_1_argument *objp)$/;"	f
+xdr_leaveserver_1_argument	rpc_gen_xdr.c	/^xdr_leaveserver_1_argument (XDR *xdrs, leaveserver_1_argument *objp)$/;"	f
+xdr_publish_1_argument	rpc_gen_xdr.c	/^xdr_publish_1_argument (XDR *xdrs, publish_1_argument *objp)$/;"	f
+xdr_publishserver_1_argument	rpc_gen_xdr.c	/^xdr_publishserver_1_argument (XDR *xdrs, publishserver_1_argument *objp)$/;"	f
+xdr_subscribe_1_argument	rpc_gen_xdr.c	/^xdr_subscribe_1_argument (XDR *xdrs, subscribe_1_argument *objp)$/;"	f
+xdr_unsubscribe_1_argument	rpc_gen_xdr.c	/^xdr_unsubscribe_1_argument (XDR *xdrs, unsubscribe_1_argument *objp)$/;"	f
